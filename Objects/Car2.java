@@ -15,7 +15,6 @@ public class Car2 {
     public int hashCode(){
         return Objects.hash(model, year);
     }
-    //напишите тут ваш код
 
     public static void main(String[] args) {
         Car2 lamborghini = new Car2("Lamborghini", 2020);
