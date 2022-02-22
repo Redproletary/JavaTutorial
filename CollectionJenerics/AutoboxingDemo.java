@@ -13,6 +13,7 @@ public class AutoboxingDemo {
     char charValue;
     boolean booleanValue;
 
+    // Autoboxing
     Byte byteValueBox = Byte.valueOf((byte) 4);
     Short shortValueBox = Short.valueOf((short) 4);
     Integer integerValueBox = Integer.valueOf(4);

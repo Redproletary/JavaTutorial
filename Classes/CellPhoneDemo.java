@@ -24,9 +24,11 @@ class CellPhone {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof CellPhone cellPhone)) return false;
+        if (!(o instanceof CellPhone)) return false;
+        CellPhone cellPhone = (CellPhone) o;
         return vendor.equals(cellPhone.vendor) && model.equals(cellPhone.model);
     }
+
 
     @Override
     public int hashCode() {
